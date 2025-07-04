@@ -6,10 +6,4 @@ class MedicalShop{
 		System.out.println("Method Ended");
 	}
 	
-	public static void main(String medical[]) {
-	
-	System.out.println("Main Started");
-	haveMedicines();
-	System.out.println("Main Ended");
-	}
 }

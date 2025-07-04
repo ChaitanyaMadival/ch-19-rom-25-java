@@ -7,12 +7,4 @@ class AmmasPestry{
 		
 		System.out.println("Method Ended");
 	}
-	
-	public static void main(String bekry[]) {
-	
-	System.out.println("Main Started");
-	containPastries();
-	
-	System.out.println("Main Ended");
-	}
 }

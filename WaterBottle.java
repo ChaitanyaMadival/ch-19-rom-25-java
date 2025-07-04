@@ -1,13 +1,4 @@
-class WaterBottle{
-
-	public static void main(String bottle[]) {
-	
-	System.out.println("Main Started");
-	carryWater();
-	
-	System.out.println("Main Ended");
-	}
-	
+class WaterBottle {
 	public static void carryWater(){
 		System.out.println("Method Started");
 	
@@ -15,4 +6,5 @@ class WaterBottle{
 		
 		System.out.println("Method Ended");
 	}
+	
 }

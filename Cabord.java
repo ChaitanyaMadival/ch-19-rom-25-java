@@ -1,13 +1,5 @@
 class Cabord{
-	
-	public static void main(String container[]) {
-	
-	System.out.println("Main Started");
-	holdsCloths();
-	
-	System.out.println("Main Ended");
-	}
-	
+
 	public static void holdsCloths(){
 		System.out.println("Method Started");
 	

@@ -1,13 +1,5 @@
-class BeautyParlour{
+class BeautyParlour {
 
-	public static void main(String parlour[]) {
-	
-	System.out.println("Main Started");
-	doMakeup();
-	
-	System.out.println("Main Ended");
-	}
-	
 	public static void doMakeup(){
 		System.out.println("Method Started");
 	
@@ -15,5 +7,4 @@ class BeautyParlour{
 		
 		System.out.println("Method Ended");
 	}
-	
 }

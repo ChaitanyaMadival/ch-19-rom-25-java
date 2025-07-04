@@ -1,12 +1,4 @@
 class Netflics{
-
-	public static void main(String netflics[]) {
-	
-	System.out.println("Main Started");
-	watchMovies();
-	
-	System.out.println("Main Ended");
-	}
 	
 	public static void watchMovies(){
 		System.out.println("Method Started");
@@ -15,5 +7,4 @@ class Netflics{
 		
 		System.out.println("Method Ended");
 	}
-	
 }

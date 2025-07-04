@@ -8,11 +8,4 @@ class Spotify{
 		System.out.println("Method Ended");
 	}
 	
-	public static void main(String song[]) {
-	
-	System.out.println("Main Started");
-	listenMusic();
-	
-	System.out.println("Main Ended");
-	}
 }
