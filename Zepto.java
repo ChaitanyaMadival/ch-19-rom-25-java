@@ -114,7 +114,7 @@ class Zepto{
 		price = 40.0;
 	}
 	
-	else if(foodName == "Buttermilk "){
+	else if(foodName == "Buttermilk"){
 		price = 35.0;
 	}
 	
