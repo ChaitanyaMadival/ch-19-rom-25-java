@@ -5,6 +5,15 @@ class Karate {
     int beltLevel;        
     int yearsOfPractice;
     String dojoName;
+	
+	Karate(int id,String style,int beltLevel,int yearsOfPractice,String dojoName){
+		this.id = id;
+		this.style = style;
+		this.beltLevel = beltLevel;
+		this.yearsOfPractice = yearsOfPractice;
+		this.dojoName = dojoName;
+		
+	}
 
     public void getKarateDetails() {
         System.out.println("Karate ID: " + id);

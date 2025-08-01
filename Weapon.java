@@ -6,6 +6,15 @@ class Weapon {
     String origin;
     String material;
     String usage;
+	
+	Weapon(int id, String name,String type,String origin,String material,String usage){
+		this.id = id;
+		this.name = name;
+		this.type = type;
+		this.origin = origin;
+		this.material = material;
+		this.usage  =usage;
+	}
 
     void getWeaponDetails() {
         System.out.println("Weapon ID: " + id);

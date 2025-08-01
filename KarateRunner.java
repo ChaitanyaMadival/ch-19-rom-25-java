@@ -3,164 +3,84 @@ class KarateRunner {
     public static void main(String karate[]) {
         System.out.println("Main Started");
 
-        Karate karate1 = new Karate();
+        Karate karate1 = new Karate(1, "Shotokan", 5, 7, "Dragon Dojo");
+		/*
         karate1.id = 1;
         karate1.style = "Shotokan";
         karate1.beltLevel = 5;
         karate1.yearsOfPractice = 7;
         karate1.dojoName = "Dragon Dojo";
+		*/
         karate1.getKarateDetails();
 
-        Karate karate2 = new Karate();
+        Karate karate2 = new Karate(2, "Goju-Ryu", 3, 4, "Tiger Dojo");
+		/*
         karate2.id = 2;
         karate2.style = "Goju-Ryu";
         karate2.beltLevel = 3;
         karate2.yearsOfPractice = 4;
         karate2.dojoName = "Tiger Dojo";
+		*/
         karate2.getKarateDetails();
 
-        Karate karate3 = new Karate();
-        karate3.id = 3;
-        karate3.style = "Shito-Ryu";
-        karate3.beltLevel = 7;
-        karate3.yearsOfPractice = 10;
-        karate3.dojoName = "Eagle Dojo";
+        Karate karate3 = new Karate(3, "Shito-Ryu", 7, 10, "Eagle Dojo");
         karate3.getKarateDetails();
 
-        Karate karate4 = new Karate();
-        karate4.id = 4;
-        karate4.style = "Wado-Ryu";
-        karate4.beltLevel = 4;
-        karate4.yearsOfPractice = 6;
-        karate4.dojoName = "Falcon Dojo";
+        Karate karate4 = new Karate(4, "Wado-Ryu", 4, 6, "Falcon Dojo");
         karate4.getKarateDetails();
 
-        Karate karate5 = new Karate();
-        karate5.id = 5;
-        karate5.style = "Kyokushin";
-        karate5.beltLevel = 8;
-        karate5.yearsOfPractice = 12;
-        karate5.dojoName = "Lion Dojo";
+        Karate karate5 = new Karate(5, "Kyokushin", 8, 12, "Lion Dojo");
         karate5.getKarateDetails();
 
-        Karate karate6 = new Karate();
-        karate6.id = 6;
-        karate6.style = "Shotokan";
-        karate6.beltLevel = 2;
-        karate6.yearsOfPractice = 3;
-        karate6.dojoName = "Dragon Dojo";
+        Karate karate6 = new Karate(6, "Shotokan", 2, 3, "Dragon Dojo");
         karate6.getKarateDetails();
 
-        Karate karate7 = new Karate();
-        karate7.id = 7;
-        karate7.style = "Goju-Ryu";
-        karate7.beltLevel = 6;
-        karate7.yearsOfPractice = 9;
-        karate7.dojoName = "Tiger Dojo";
+        Karate karate7 = new Karate(7, "Goju-Ryu", 6, 9,"Tiger Dojo");
         karate7.getKarateDetails();
 
-        Karate karate8 = new Karate();
-        karate8.id = 8;
-        karate8.style = "Shito-Ryu";
-        karate8.beltLevel = 1;
-        karate8.yearsOfPractice = 1;
-        karate8.dojoName = "Eagle Dojo";
+        Karate karate8 = new Karate(8, "Shito-Ryu", 1, 1, "Eagle Dojo");
         karate8.getKarateDetails();
 
-        Karate karate9 = new Karate();
-        karate9.id = 9;
-        karate9.style = "Wado-Ryu";
-        karate9.beltLevel = 9;
-        karate9.yearsOfPractice = 14;
-        karate9.dojoName = "Falcon Dojo";
+        Karate karate9 = new Karate(9, "Wado-Ryu", 9, 14, "Falcon Dojo");
         karate9.getKarateDetails();
 
-        Karate karate10 = new Karate();
-        karate10.id = 10;
-        karate10.style = "Kyokushin";
-        karate10.beltLevel = 5;
-        karate10.yearsOfPractice = 8;
-        karate10.dojoName = "Lion Dojo";
+        Karate karate10 = new Karate(10, "Kyokushin", 5, 8, "Lion Dojo");
         karate10.getKarateDetails();
 
-        Karate karate11 = new Karate();
-        karate11.id = 11;
-        karate11.style = "Shotokan";
-        karate11.beltLevel = 7;
-        karate11.yearsOfPractice = 11;
-        karate11.dojoName = "Dragon Dojo";
+        Karate karate11 = new Karate(11, "Shotokan", 7, 11, "Dragon Dojo");
         karate11.getKarateDetails();
 
-        Karate karate12 = new Karate();
-        karate12.id = 12;
+        Karate karate12 = new Karate(12, "Goju-Ryu",3,4,"tiger dojo");
+		/*
         karate12.style = "Goju-Ryu";
         karate12.beltLevel = 3;
         karate12.yearsOfPractice = 4;
         karate12.dojoName = "Tiger Dojo";
+		*/
         karate12.getKarateDetails();
 
-        Karate karate13 = new Karate();
-        karate13.id = 13;
-        karate13.style = "Shito-Ryu";
-        karate13.beltLevel = 6;
-        karate13.yearsOfPractice = 9;
-        karate13.dojoName = "Eagle Dojo";
+        Karate karate13 = new Karate(13,"Shito-Ryu", 6,9, "Eagle Dojo");
         karate13.getKarateDetails();
 
-        Karate karate14 = new Karate();
-        karate14.id = 14;
-        karate14.style = "Wado-Ryu";
-        karate14.beltLevel = 2;
-        karate14.yearsOfPractice = 3;
-        karate14.dojoName = "Falcon Dojo";
+        Karate karate14 = new Karate(14, "Wado-Ryu", 2, 3, "Falcon Dojo");
         karate14.getKarateDetails();
 
-        Karate karate15 = new Karate();
-        karate15.id = 15;
-        karate15.style = "Kyokushin";
-        karate15.beltLevel = 8;
-        karate15.yearsOfPractice = 13;
-        karate15.dojoName = "Lion Dojo";
+        Karate karate15 = new Karate(15, "Kyokushin", 8, 13, "Lion Dojo");
         karate15.getKarateDetails();
 
-        Karate karate16 = new Karate();
-        karate16.id = 16;
-        karate16.style = "Shotokan";
-        karate16.beltLevel = 4;
-        karate16.yearsOfPractice = 6;
-        karate16.dojoName = "Dragon Dojo";
+        Karate karate16 = new Karate(16,"Shotokan",4,6,"Dragon Dojo");
         karate16.getKarateDetails();
 
-        Karate karate17 = new Karate();
-        karate17.id = 17;
-        karate17.style = "Goju-Ryu";
-        karate17.beltLevel = 7;
-        karate17.yearsOfPractice = 11;
-        karate17.dojoName = "Tiger Dojo";
+        Karate karate17 = new Karate(17,"Goju-Ryu", 7, 11, "Tiger Dojo");
         karate17.getKarateDetails();
 
-        Karate karate18 = new Karate();
-        karate18.id = 18;
-        karate18.style = "Shito-Ryu";
-        karate18.beltLevel = 5;
-        karate18.yearsOfPractice = 7;
-        karate18.dojoName = "Eagle Dojo";
+        Karate karate18 = new Karate(18, "Shito-Ryu", 5, 7,"Eagle Dojo");
         karate18.getKarateDetails();
 
-        Karate karate19 = new Karate();
-        karate19.id = 19;
-        karate19.style = "Wado-Ryu";
-        karate19.beltLevel = 3;
-        karate19.yearsOfPractice = 4;
-        karate19.dojoName = "Falcon Dojo";
+        Karate karate19 = new Karate( 19, "Wado-Ryu", 3, 4,"Falcon Dojo");
         karate19.getKarateDetails();
 
-        Karate karate20 = new Karate();
-        karate20.id = 20;
-        karate20.style = "Kyokushin";
-        karate20.beltLevel = 9;
-        karate20.yearsOfPractice = 15;
-        karate20.dojoName = "Lion Dojo";
+        Karate karate20 = new Karate(20, "Kyokushin", 9, 15, "Lion Dojo");
         karate20.getKarateDetails();
 
         System.out.println("Main Ended");

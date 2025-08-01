@@ -6,6 +6,15 @@ class Politician {
     String position;
     String constituency;
     int yearsInPolitics;
+	
+	Politician(int id, String name, String party,String position, String constituency,int yearsInPolitics){
+		this.id = id;
+		this.name = name;
+		this.party = party;
+		this.position = position;
+		this.constituency = constituency;
+		this.yearsInPolitics = yearsInPolitics;
+	}
 
     void getPoliticianDetails() {
         System.out.println("Politician ID: " + id);

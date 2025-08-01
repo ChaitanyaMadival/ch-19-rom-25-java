@@ -6,6 +6,16 @@ class InvitationCard {
     String date;
     String time;
     String venue;
+	
+	InvitationCard(int id,String eventName, String hostName,String date,String time,String venue){
+		this.id = id;
+		this.eventName = eventName;
+		this.hostName = hostName;
+		this.date = date;
+		this.time = time;
+		this.venue = venue;
+		
+	}
 
     void getInvitationDetails() {
         System.out.println("Invitation ID: " + id);

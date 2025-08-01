@@ -1,5 +1,4 @@
-class CourtCase{
-
+public class CourtCase {
     int id;
     String caseTitle;
     String caseType;
@@ -7,14 +6,22 @@ class CourtCase{
     String respondent;
     int yearOfFiling;
 
-    void getCourtCaseDetails(){
-		
-        System.out.println("Case ID: " + id);
-        System.out.println("Case Title: " + caseTitle);
-        System.out.println("Case Type: " + caseType);
+    public CourtCase(int id, String caseTitle, String caseType, String petitioner, String respondent, int yearOfFiling) {
+        this.id = id;
+        this.caseTitle = caseTitle;
+        this.caseType = caseType;
+        this.petitioner = petitioner;
+        this.respondent = respondent;
+        this.yearOfFiling = yearOfFiling;
+    }
+
+    public void getCourtCaseDetails() {
+        System.out.println("ID: " + id);
+        System.out.println("Title: " + caseTitle);
+        System.out.println("Type: " + caseType);
         System.out.println("Petitioner: " + petitioner);
         System.out.println("Respondent: " + respondent);
         System.out.println("Year of Filing: " + yearOfFiling);
-        System.out.println("------------");
+        System.out.println("------------------\n");
     }
 }

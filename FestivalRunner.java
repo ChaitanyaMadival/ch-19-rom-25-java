@@ -3,184 +3,64 @@ class FestivalRunner {
     public static void main(String fest[]) {
         System.out.println("Main Started");
 
-        Festival diwali = new Festival();
-        diwali.id = 1;
-        diwali.name = "Diwali";
-        diwali.location = "India";
-        diwali.season = "Autumn";
-        diwali.numberOfDays = 5;
-        diwali.isReligious = true;
+        Festival diwali = new Festival(1, "Diwali", "India", "Autumn", 5, true);
         diwali.getFestivalDetails();
 
-        Festival christmas = new Festival();
-        christmas.id = 2;
-        christmas.name = "Christmas";
-        christmas.location = "Worldwide";
-        christmas.season = "Winter";
-        christmas.numberOfDays = 1;
-        christmas.isReligious = true;
+        Festival christmas = new Festival(2, "Christmas", "Worldwide", "Winter", 1, true);
         christmas.getFestivalDetails();
 
-        Festival holi = new Festival();
-        holi.id = 3;
-        holi.name = "Holi";
-        holi.location = "India";
-        holi.season = "Spring";
-        holi.numberOfDays = 2;
-        holi.isReligious = true;
+        Festival holi = new Festival(3, "Holi", "India", "Spring", 2, true);
         holi.getFestivalDetails();
 
-        Festival oktoberfest = new Festival();
-        oktoberfest.id = 4;
-        oktoberfest.name = "Oktoberfest";
-        oktoberfest.location = "Germany";
-        oktoberfest.season = "Autumn";
-        oktoberfest.numberOfDays = 16;
-        oktoberfest.isReligious = false;
+        Festival oktoberfest = new Festival(4, "Oktoberfest", "Germany", "Autumn", 16, false);
         oktoberfest.getFestivalDetails();
 
-        Festival chineseNewYear = new Festival();
-        chineseNewYear.id = 5;
-        chineseNewYear.name = "Chinese New Year";
-        chineseNewYear.location = "China";
-        chineseNewYear.season = "Winter";
-        chineseNewYear.numberOfDays = 15;
-        chineseNewYear.isReligious = true;
+        Festival chineseNewYear = new Festival(5, "Chinese New Year", "China", "Winter", 15, true);
         chineseNewYear.getFestivalDetails();
 
-        Festival eid = new Festival();
-        eid.id = 6;
-        eid.name = "Eid";
-        eid.location = "Middle East";
-        eid.season = "Varies";
-        eid.numberOfDays = 1;
-        eid.isReligious = true;
+        Festival eid = new Festival(6, "Eid", "Middle East", "Varies", 1, true);
         eid.getFestivalDetails();
 
-        Festival hanukkah = new Festival();
-        hanukkah.id = 7;
-        hanukkah.name = "Hanukkah";
-        hanukkah.location = "Israel";
-        hanukkah.season = "Winter";
-        hanukkah.numberOfDays = 8;
-        hanukkah.isReligious = true;
+        Festival hanukkah = new Festival(7, "Hanukkah", "Israel", "Winter", 8, true);
         hanukkah.getFestivalDetails();
 
-        Festival thanksgiving = new Festival();
-        thanksgiving.id = 8;
-        thanksgiving.name = "Thanksgiving";
-        thanksgiving.location = "USA/Canada";
-        thanksgiving.season = "Autumn";
-        thanksgiving.numberOfDays = 1;
-        thanksgiving.isReligious = false;
+        Festival thanksgiving = new Festival(8, "Thanksgiving", "USA/Canada", "Autumn", 1, false);
         thanksgiving.getFestivalDetails();
 
-        Festival ganeshChaturthi = new Festival();
-        ganeshChaturthi.id = 9;
-        ganeshChaturthi.name = "Ganesh Chaturthi";
-        ganeshChaturthi.location = "India";
-        ganeshChaturthi.season = "Autumn";
-        ganeshChaturthi.numberOfDays = 10;
-        ganeshChaturthi.isReligious = true;
+        Festival ganeshChaturthi = new Festival(9, "Ganesh Chaturthi", "India", "Autumn", 10, true);
         ganeshChaturthi.getFestivalDetails();
 
-        Festival navratri = new Festival();
-        navratri.id = 10;
-        navratri.name = "Navratri";
-        navratri.location = "India";
-        navratri.season = "Autumn";
-        navratri.numberOfDays = 9;
-        navratri.isReligious = true;
+        Festival navratri = new Festival(10, "Navratri", "India", "Autumn", 9, true);
         navratri.getFestivalDetails();
 
-        Festival pongal = new Festival();
-        pongal.id = 11;
-        pongal.name = "Pongal";
-        pongal.location = "Tamil Nadu";
-        pongal.season = "Winter";
-        pongal.numberOfDays = 4;
-        pongal.isReligious = true;
+        Festival pongal = new Festival(11, "Pongal", "Tamil Nadu", "Winter", 4, true);
         pongal.getFestivalDetails();
 
-        Festival rakshaBandhan = new Festival();
-        rakshaBandhan.id = 12;
-        rakshaBandhan.name = "Raksha Bandhan";
-        rakshaBandhan.location = "India";
-        rakshaBandhan.season = "Monsoon";
-        rakshaBandhan.numberOfDays = 1;
-        rakshaBandhan.isReligious = true;
+        Festival rakshaBandhan = new Festival(12, "Raksha Bandhan", "India", "Monsoon", 1, true);
         rakshaBandhan.getFestivalDetails();
 
-        Festival baisakhi = new Festival();
-        baisakhi.id = 13;
-        baisakhi.name = "Baisakhi";
-        baisakhi.location = "Punjab";
-        baisakhi.season = "Spring";
-        baisakhi.numberOfDays = 1;
-        baisakhi.isReligious = true;
+        Festival baisakhi = new Festival(13, "Baisakhi", "Punjab", "Spring", 1, true);
         baisakhi.getFestivalDetails();
 
-        Festival durgaPuja = new Festival();
-        durgaPuja.id = 14;
-        durgaPuja.name = "Durga Puja";
-        durgaPuja.location = "West Bengal";
-        durgaPuja.season = "Autumn";
-        durgaPuja.numberOfDays = 5;
-        durgaPuja.isReligious = true;
+        Festival durgaPuja = new Festival(14, "Durga Puja", "West Bengal", "Autumn", 5, true);
         durgaPuja.getFestivalDetails();
 
-        Festival karvaChauth = new Festival();
-        karvaChauth.id = 15;
-        karvaChauth.name = "Karva Chauth";
-        karvaChauth.location = "North India";
-        karvaChauth.season = "Autumn";
-        karvaChauth.numberOfDays = 1;
-        karvaChauth.isReligious = true;
+        Festival karvaChauth = new Festival(15, "Karva Chauth", "North India", "Autumn", 1, true);
         karvaChauth.getFestivalDetails();
 
-        Festival lohri = new Festival();
-        lohri.id = 16;
-        lohri.name = "Lohri";
-        lohri.location = "Punjab";
-        lohri.season = "Winter";
-        lohri.numberOfDays = 1;
-        lohri.isReligious = false;
+        Festival lohri = new Festival(16, "Lohri", "Punjab", "Winter", 1, false);
         lohri.getFestivalDetails();
 
-        Festival easter = new Festival();
-        easter.id = 17;
-        easter.name = "Easter";
-        easter.location = "Worldwide";
-        easter.season = "Spring";
-        easter.numberOfDays = 1;
-        easter.isReligious = true;
+        Festival easter = new Festival(17, "Easter", "Worldwide", "Spring", 1, true);
         easter.getFestivalDetails();
 
-        Festival vesak = new Festival();
-        vesak.id = 18;
-        vesak.name = "Vesak";
-        vesak.location = "Sri Lanka";
-        vesak.season = "Spring";
-        vesak.numberOfDays = 1;
-        vesak.isReligious = true;
+        Festival vesak = new Festival(18, "Vesak", "Sri Lanka", "Spring", 1, true);
         vesak.getFestivalDetails();
 
-        Festival bonfireNight = new Festival();
-        bonfireNight.id = 19;
-        bonfireNight.name = "Bonfire Night";
-        bonfireNight.location = "UK";
-        bonfireNight.season = "Autumn";
-        bonfireNight.numberOfDays = 1;
-        bonfireNight.isReligious = false;
+        Festival bonfireNight = new Festival(19, "Bonfire Night", "UK", "Autumn", 1, false);
         bonfireNight.getFestivalDetails();
 
-        Festival songkran = new Festival();
-        songkran.id = 20;
-        songkran.name = "Songkran";
-        songkran.location = "Thailand";
-        songkran.season = "Summer";
-        songkran.numberOfDays = 3;
-        songkran.isReligious = false;
+        Festival songkran = new Festival(20, "Songkran", "Thailand", "Summer", 3, false);
         songkran.getFestivalDetails();
 
         System.out.println("Main Ended");

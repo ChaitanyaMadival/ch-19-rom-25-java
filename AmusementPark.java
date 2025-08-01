@@ -6,6 +6,15 @@ class AmusementPark {
     int numberOfEmployees;
     int parkCapacity;
     int numberOfVisitors;
+	
+	AmusementPark(int id, int numberOfRides,double ticketPrice,int numberOfEmployees,int parkCapacity,int numberOfVisitors){
+		this.id = id;
+		this.numberOfRides = numberOfRides;
+		this.ticketPrice = ticketPrice;
+		this.numberOfEmployees = numberOfEmployees;
+		this.parkCapacity = parkCapacity;
+		this.numberOfVisitors = numberOfVisitors;
+	}
 
     public void getParkDetails() {
         System.out.println("Amusement Park ID: "+id);

@@ -1,166 +1,65 @@
-class CasinoRunner{
-
+public class CasinoRunner {
     public static void main(String casino[]) {
         System.out.println("Main Started");
 
-        Casino bellagio = new Casino();
-        bellagio.id = 1;
-        bellagio.name = "Bellagio";
-        bellagio.location = "Las Vegas";
-        bellagio.numberOfTables = 140;
-        bellagio.hasHotel = true;
+        Casino bellagio = new Casino(1, "Bellagio", "Las Vegas", 140, true);
         bellagio.getCasinoDetails();
 
-        Casino venetian = new Casino();
-        venetian.id = 2;
-        venetian.name = "Venetian Macao";
-        venetian.location = "Macau";
-        venetian.numberOfTables = 500;
-        venetian.hasHotel = true;
+        Casino venetian = new Casino(2, "Venetian Macao", "Macau", 500, true);
         venetian.getCasinoDetails();
 
-        Casino wynn = new Casino();
-        wynn.id = 3;
-        wynn.name = "Wynn";
-        wynn.location = "Las Vegas";
-        wynn.numberOfTables = 180;
-        wynn.hasHotel = true;
+        Casino wynn = new Casino(3, "Wynn", "Las Vegas", 180, true);
         wynn.getCasinoDetails();
 
-        Casino monteCarlo = new Casino();
-        monteCarlo.id = 4;
-        monteCarlo.name = "Monte Carlo Casino";
-        monteCarlo.location = "Monaco";
-        monteCarlo.numberOfTables = 100;
-        monteCarlo.hasHotel = false;
+        Casino monteCarlo = new Casino(4, "Monte Carlo Casino", "Monaco", 100, false);
         monteCarlo.getCasinoDetails();
 
-        Casino foxwoods = new Casino();
-        foxwoods.id = 5;
-        foxwoods.name = "Foxwoods";
-        foxwoods.location = "Connecticut";
-        foxwoods.numberOfTables = 250;
-        foxwoods.hasHotel = true;
+        Casino foxwoods = new Casino(5, "Foxwoods", "Connecticut", 250, true);
         foxwoods.getCasinoDetails();
 
-        Casino mgm = new Casino();
-        mgm.id = 6;
-        mgm.name = "MGM Grand";
-        mgm.location = "Las Vegas";
-        mgm.numberOfTables = 170;
-        mgm.hasHotel = true;
+        Casino mgm = new Casino(6, "MGM Grand", "Las Vegas", 170, true);
         mgm.getCasinoDetails();
 
-        Casino borgata = new Casino();
-        borgata.id = 7;
-        borgata.name = "Borgata";
-        borgata.location = "Atlantic City";
-        borgata.numberOfTables = 200;
-        borgata.hasHotel = true;
+        Casino borgata = new Casino(7, "Borgata", "Atlantic City", 200, true);
         borgata.getCasinoDetails();
 
-        Casino cityOfDreams = new Casino();
-        cityOfDreams.id = 8;
-        cityOfDreams.name = "City of Dreams";
-        cityOfDreams.location = "Macau";
-        cityOfDreams.numberOfTables = 420;
-        cityOfDreams.hasHotel = true;
+        Casino cityOfDreams = new Casino(8, "City of Dreams", "Macau", 420, true);
         cityOfDreams.getCasinoDetails();
 
-        Casino sands = new Casino();
-        sands.id = 9;
-        sands.name = "Sands Casino";
-        sands.location = "Macau";
-        sands.numberOfTables = 300;
-        sands.hasHotel = true;
+        Casino sands = new Casino(9, "Sands Casino", "Macau", 300, true);
         sands.getCasinoDetails();
 
-        Casino crown = new Casino();
-        crown.id = 10;
-        crown.name = "Crown Casino";
-        crown.location = "Melbourne";
-        crown.numberOfTables = 350;
-        crown.hasHotel = true;
+        Casino crown = new Casino(10, "Crown Casino", "Melbourne", 350, true);
         crown.getCasinoDetails();
 
-        Casino resortWorld = new Casino();
-        resortWorld.id = 11;
-        resortWorld.name = "Resorts World";
-        resortWorld.location = "Singapore";
-        resortWorld.numberOfTables = 250;
-        resortWorld.hasHotel = true;
+        Casino resortWorld = new Casino(11, "Resorts World", "Singapore", 250, true);
         resortWorld.getCasinoDetails();
 
-        Casino tropicana = new Casino();
-        tropicana.id = 12;
-        tropicana.name = "Tropicana";
-        tropicana.location = "Las Vegas";
-        tropicana.numberOfTables = 90;
-        tropicana.hasHotel = true;
+        Casino tropicana = new Casino(12, "Tropicana", "Las Vegas", 90, true);
         tropicana.getCasinoDetails();
 
-        Casino goldenNugget = new Casino();
-        goldenNugget.id = 13;
-        goldenNugget.name = "Golden Nugget";
-        goldenNugget.location = "Las Vegas";
-        goldenNugget.numberOfTables = 70;
-        goldenNugget.hasHotel = true;
+        Casino goldenNugget = new Casino(13, "Golden Nugget", "Las Vegas", 70, true);
         goldenNugget.getCasinoDetails();
 
-        Casino aria = new Casino();
-        aria.id = 14;
-        aria.name = "Aria";
-        aria.location = "Las Vegas";
-        aria.numberOfTables = 150;
-        aria.hasHotel = true;
+        Casino aria = new Casino(14, "Aria", "Las Vegas", 150, true);
         aria.getCasinoDetails();
 
-        Casino caesars = new Casino();
-        caesars.id = 15;
-        caesars.name = "Caesars Palace";
-        caesars.location = "Las Vegas";
-        caesars.numberOfTables = 160;
-        caesars.hasHotel = true;
+        Casino caesars = new Casino(15, "Caesars Palace", "Las Vegas", 160, true);
         caesars.getCasinoDetails();
 
-        Casino hardRock = new Casino();
-        hardRock.id = 16;
-        hardRock.name = "Hard Rock Casino";
-        hardRock.location = "Atlantic City";
-        hardRock.numberOfTables = 120;
-        hardRock.hasHotel = true;
+        Casino hardRock = new Casino(16, "Hard Rock Casino", "Atlantic City", 120, true);
         hardRock.getCasinoDetails();
 
-        Casino riverRock = new Casino();
-        riverRock.id = 17;
-        riverRock.name = "River Rock Casino";
-        riverRock.location = "Canada";
-        riverRock.numberOfTables = 110;
-        riverRock.hasHotel = true;
+        Casino riverRock = new Casino(17, "River Rock Casino", "Canada", 110, true);
         riverRock.getCasinoDetails();
 
-        Casino casinoBarcelona = new Casino();
-        casinoBarcelona.id = 18;
-        casinoBarcelona.name = "Casino Barcelona";
-        casinoBarcelona.location = "Spain";
-        casinoBarcelona.numberOfTables = 95;
-        casinoBarcelona.hasHotel = false;
+        Casino casinoBarcelona = new Casino(18, "Casino Barcelona", "Spain", 95, false);
         casinoBarcelona.getCasinoDetails();
 
-        Casino casinoLisboa = new Casino();
-        casinoLisboa.id = 19;
-        casinoLisboa.name = "Casino Lisboa";
-        casinoLisboa.location = "Portugal";
-        casinoLisboa.numberOfTables = 85;
-        casinoLisboa.hasHotel = false;
+        Casino casinoLisboa = new Casino(19, "Casino Lisboa", "Portugal", 85, false);
         casinoLisboa.getCasinoDetails();
 
-        Casino okada = new Casino();
-        okada.id = 20;
-        okada.name = "Okada Manila";
-        okada.location = "Philippines";
-        okada.numberOfTables = 370;
-        okada.hasHotel = true;
+        Casino okada = new Casino(20, "Okada Manila", "Philippines", 370, true);
         okada.getCasinoDetails();
 
         System.out.println("Main Ended");
