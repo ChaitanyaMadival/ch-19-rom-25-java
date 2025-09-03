@@ -1,32 +1,82 @@
 package com.xworkz.policeapp.police;
 
-import com.xworkz.policeapp.station.Station;
-import com.xworkz.policeapp.validation.PoliceValidation;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 
 public class Police {
-    Station police;
-    public  boolean createPoliceInfo(Station police){
-        boolean isPoliceInfoCreated = false;
+    private String officerId;
+    private String officerName;
+    private String gender;
+    private String badgeNumber;
+    private String stationName;
+    private String department;
+    private String phoneNumber;
+    private String email;
 
-        boolean isPoliceInfoValid;
-
-        PoliceValidation policeInfo = new PoliceValidation();
-        isPoliceInfoValid = policeInfo.validatePoliceInfo(police);
-        if(isPoliceInfoValid){
-            this.police = police;
-            isPoliceInfoCreated = true;
-        }
-        return  isPoliceInfoCreated;
-    }
-
-    public void getPoliceDetails() {
-        System.out.println("Officer Id : "+police.getOfficerId());
-        System.out.println("Officer name : "+police.getOfficerName());
-        System.out.println("Gender : "+police.getGender());
-        System.out.println("Badge Number : "+police.getBadgeNumber());
-        System.out.println("Station name : "+police.getStationName());
-        System.out.println("Department : "+police.getDepartment());
-        System.out.println("Phone number : "+police.getPhoneNumber());
-        System.out.println("Email : "+police.getEmail());
-    }
+//    public String getOfficerId() {
+//        return officerId;
+//    }
+//
+//    public void setOfficerId(String officerId) {
+//        this.officerId = officerId;
+//    }
+//
+//    public String getOfficerName() {
+//        return officerName;
+//    }
+//
+//    public void setOfficerName(String officerName) {
+//        this.officerName = officerName;
+//    }
+//
+//    public String getBadgeNumber() {
+//        return badgeNumber;
+//    }
+//
+//    public void setBadgeNumber(String badgeNumber) {
+//        this.badgeNumber = badgeNumber;
+//    }
+//
+//    public String getGender() {
+//        return gender;
+//    }
+//
+//    public void setGender(String gender) {
+//        this.gender = gender;
+//    }
+//
+//    public String getStationName() {
+//        return stationName;
+//    }
+//
+//    public void setStationName(String stationName) {
+//        this.stationName = stationName;
+//    }
+//
+//    public String getDepartment() {
+//        return department;
+//    }
+//
+//    public void setDepartment(String department) {
+//        this.department = department;
+//    }
+//
+//    public String getPhoneNumber() {
+//        return phoneNumber;
+//    }
+//
+//    public void setPhoneNumber(String phoneNumber) {
+//        this.phoneNumber = phoneNumber;
+//    }
+//
+//    public String getEmail() {
+//        return email;
+//    }
+//
+//    public void setEmail(String email) {
+//        this.email = email;
+//    }
 }
